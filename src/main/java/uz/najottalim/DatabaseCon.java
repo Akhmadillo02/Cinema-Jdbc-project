@@ -4,9 +4,9 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class DatabaseCon {
-    private final String url = "jdbc:postgresql://localhost/postgres";
-    private final String user = "postgres";
-    private final String password = "Java0501";
+    private final String url = "jdbc:postgresql://localhost/";
+    private final String user = "";
+    private final String password = "";
 
     private static DatabaseCon databaseCon = null;
 
